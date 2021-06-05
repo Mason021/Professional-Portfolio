@@ -1,8 +1,55 @@
-.hero {
+.banner {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/pittsburgh-skyline2.jpg");
     background-size: cover;
     background-position: center;
+}
+
+#about-text {
+    font-size: 12px;
+    float:right;
+}
+
+.projects {
+    border: 4px solid;
+    padding: 5px;
+    margin: 5px;
+    min-height:150px;
+    max-height:150px;
+
+}
+
+section {
+    display:flex;
+}
+
+section div {
+    flex: 0 0 75%;
+}
+
+.water {
+    background-image: url("../images/mirror-water.jpg");
+    background-size: cover;
+}
+
+.bookstore {
+    background-image: url("../images/book-store.jpg");
+    background-size: cover;
+}
+
+.galaxy {
+    background-image: url("../images/boat-galaxy.webp");
+    background-size: cover;
+}
+
+.sunset {
+    background-image: url("../images/sunset-tree.webp");
+    background-size: cover;
+}
+
+.run-buddy {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
 }
