@@ -1,3 +1,8 @@
-body {
-    background-color: green;
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/pittsburgh-skyline2.jpg");
+    background-size: cover;
+    background-position: center;
 }
