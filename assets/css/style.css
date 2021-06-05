@@ -1,3 +1,42 @@
+body {
+    background-color: #d9dcd6;
+}
+/* Header styling start */
+header {
+    padding: 20px 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+}
+
+header a {
+    text-decoration: none;
+    color: #d9dcd6;
+  }
+
+header h1 {
+    display: inline; /* changed to inline from inline block */
+    font-size: 48px;
+    font-weight:bold; /* added both font-weight and margin thinking it would move things in and maybe the nav section would pull up but hasn't */
+    margin: 0;
+}
+
+header nav {
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+ 
+/* Header styling end */
 .banner {
     height: 800px;
     width: 100%;
@@ -28,7 +67,7 @@ section {
 section div {
     flex: 0 0 75%;
 }
-
+/* work box stylings start */
 .water {
     background-image: url("../images/mirror-water.jpg");
     background-size: cover;
@@ -53,3 +92,5 @@ section div {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
 }
+
+/* work box stylings end */
