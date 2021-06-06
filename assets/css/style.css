@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
 :root {
@@ -62,7 +63,7 @@ header nav ul li a {
  
 /* Header styling end */
 .banner {
-    height: 800px;
+    height: 500px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/pittsburgh-skyline2.jpg");
@@ -92,8 +93,8 @@ section div {
     flex: 0 0 75%;
 }
 /* work box stylings start */
-.water {
-    background-image: url("../images/mirror-water.jpg");
+.horiseon {
+    background-image: url("../images/social-media-marketing.jpg");
     background-size: cover;
 }
 
@@ -133,7 +134,6 @@ footer {
     margin: 0;
     font-size: 36px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   footer a {
@@ -151,4 +151,9 @@ footer {
     align-items: center;
     list-style: none;
   }
+
+  footer nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
 /* footer styling end */
