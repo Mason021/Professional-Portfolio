@@ -120,7 +120,7 @@ section div {
 /* work box stylings end */
 /* footer styling start */
 footer {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
@@ -150,19 +150,5 @@ footer {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-  }
-  
-  footer nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  footer nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
   }
 /* footer styling end */
