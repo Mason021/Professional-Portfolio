@@ -107,6 +107,7 @@ main h2 {
     /* set padding to 0 top, 10 right and left, and 20 bottom */
     padding: 0 10px 20px;
   }
+  
 .text-to-the-right {
     text-align:right;
 }
