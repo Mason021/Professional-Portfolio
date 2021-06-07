@@ -7,10 +7,17 @@
 :root {
      --primary-color: #2a607c;
      --secondary-color:#d9dcd6;
+     --third-color: #2099b8;
 }
 
 body {
     background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 /* Header styling start */
 header {
@@ -52,9 +59,10 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
   }
   
-  header nav ul li a:hover {
+header nav ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 15px;
@@ -71,11 +79,77 @@ header nav ul li a {
     background-position: center;
 }
 
-#about-text {
-    font-size: 12px;
-    float:right;
+.banner-span {
+    text-align: right;
+    background-color:var(--third-color);
+    position: absolute;
+    color: var(--secondary-color);
 }
 
+main {
+    width: 80%;
+    /* center on page using auto for left/right */
+    margin: 50px auto;
+    /* add padding so html inside has space */
+    padding: 20px;
+    background-color:var(--secondary-color);
+}
+
+main div div:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+main h2 {
+    color: var(--third-color);
+    /* set padding to 0 top, 10 right and left, and 20 bottom */
+    padding: 0 10px 20px;
+  }
+.text-to-the-right {
+    text-align:right;
+}
+
+  /* flex parent */
+.flex-container {
+    /* create flexbox */
+    display: flex;
+    /* instruct it to break onto next line if it runs out of space */
+    flex-wrap: wrap;
+    /* put all unused space between items */
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* flex child */
+
+  .flex-item {
+    /* make each one 45%, putting 10% between each element on the page */
+    width: 45%;
+    border: 4px solid var(--third-color);
+    background-color: #393b4f;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-size: cover;
+    padding: 20px 0;
+    background-position: center;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    max-height:150px;
+  }  
+
+  
+  .flex-item span {
+    /* pushes element to bottom of flex item */
+    margin-top: auto;
+    width: 100%;
+    background-color: #2099b8;
+    color: #393b4f;
+  }
+  
 .projects {
     border: 4px solid;
     padding: 5px;
@@ -98,7 +172,7 @@ section div {
     background-size: cover;
 }
 
-.bookstore {
+.robot-gladiators {
     background-image: url("../images/book-store.jpg");
     background-size: cover;
 }
@@ -118,6 +192,9 @@ section div {
     background-size: cover;
 }
 
+header h1 {
+    background-color: var(--third-color);
+}
 /* work box stylings end */
 /* footer styling start */
 footer {
