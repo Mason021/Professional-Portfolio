@@ -107,7 +107,7 @@ main h2 {
     /* set padding to 0 top, 10 right and left, and 20 bottom */
     padding: 0 10px 20px;
   }
-  
+
 .text-to-the-right {
     text-align:right;
 }
@@ -178,13 +178,13 @@ section div {
     background-size: cover;
 }
 
-.galaxy {
-    background-image: url("../images/boat-galaxy.webp");
+.movieNight {
+    background-image: url("../images/Movie-Night.jpg");
     background-size: cover;
 }
 
-.sunset {
-    background-image: url("../images/sunset-tree.webp");
+.passwordGen {
+    background-image: url("../images/passwordGen.jpg");
     background-size: cover;
 }
 
