@@ -168,8 +168,8 @@ section div {
     flex: 0 0 75%;
 }
 /* work box stylings start */
-.horiseon {
-    background-image: url("../images/social-media-marketing.jpg");
+.stockWatch {
+    background-image: url("../images/stock-watch.jpg");
     background-size: cover;
 }
 
